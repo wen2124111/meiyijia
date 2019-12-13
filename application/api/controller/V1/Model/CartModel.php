@@ -8,7 +8,7 @@ use think\db;
 
 class CartModel extends Common
 {
-    protected  $_tableName = "cart"; //表
+    protected  $_tableName = "cart"; //数据表
 
     /**
      * 更新购物车商品数量
