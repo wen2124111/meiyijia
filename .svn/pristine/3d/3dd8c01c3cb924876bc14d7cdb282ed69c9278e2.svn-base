@@ -1,0 +1,27 @@
+---------------------------------------------------------------
+[ 2019-12-10T15:27:52+08:00 ] 127.0.0.1 127.0.0.1 GET /User/kk/1
+[ info ] api.tp.cc/User/kk/1 [运行时间：0.272016s][吞吐率：3.68req/s] [内存消耗：2,293.80kb] [文件加载：49]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'User',
+    2 => 'kk',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.tp.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: kk[F:\wamp64\www\tp5\application\api\controller\Common.php:110]

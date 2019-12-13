@@ -1,0 +1,3584 @@
+---------------------------------------------------------------
+[ 2019-12-09T10:29:48+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] api.tp.cc/ [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：2,570.34kb] [文件加载：41]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.tp.cc',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4117264384; pgv_si=s5793657856',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '}'[F:\wamp64\www\tp5\application\index\controller\Index.php:9]
+---------------------------------------------------------------
+[ 2019-12-09T10:30:39+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/hello
+[ info ] api.tp.cc/index/index/hello [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：2,546.34kb] [文件加载：41]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fc1e8f50-83c1-4234-a074-2ee4530a8328',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T10:30:47+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/index
+[ info ] api.tp.cc/index/index/index [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：2,521.52kb] [文件加载：39]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ce92f131-a8d2-4786-93f6-cece43bb2254',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T10:31:27+08:00 ] 127.0.0.1 127.0.0.1 PUT /index/index/index
+[ info ] api.tp.cc/index/index/index [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：2,521.68kb] [文件加载：39]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '75340f57-0578-484c-b04a-fe89e4ae2038',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T10:31:30+08:00 ] 127.0.0.1 127.0.0.1 HEAD /index/index/index
+[ info ] api.tp.cc/index/index/index [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：2,521.27kb] [文件加载：39]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b4082c51-44f6-440f-88f3-2cc600bfac38',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T10:31:35+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/index
+[ info ] api.tp.cc/index/index/index [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：2,521.52kb] [文件加载：39]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f94c3b9c-2150-4e4d-b684-0305b8f5c245',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T10:33:27+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/index
+[ info ] api.tp.cc/index/index/index [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：2,521.65kb] [文件加载：39]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5fc53a50-2041-4ccb-b58c-78e49cce634a',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '7',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  0 => '2',
+  1 => '4',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T10:33:40+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/index
+[ info ] api.tp.cc/index/index/index [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：2,521.62kb] [文件加载：39]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '554d3bc6-295a-4825-9e72-70d89a9dfeb9',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '14',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '2',
+  'aaaaa' => '4',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T10:33:51+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/index
+[ info ] api.tp.cc/index/index/index [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：2,521.62kb] [文件加载：39]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2b95e549-a87d-459e-84fd-386838e5b2f1',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '14',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '2',
+  'aaaaa' => '4',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T10:34:03+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/index
+[ info ] api.tp.cc/index/index/index [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：2,521.63kb] [文件加载：39]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f861cca9-e316-4a3f-b7cc-c32f813dd93b',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'bbbbb' => '2',
+  'aaaaa' => '4',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T10:51:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index/db
+[ info ] api.tp.cc/index/index/index/db [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：2,523.38kb] [文件加载：39]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '81595088-a678-40a9-b2a3-626b4b939dac',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T10:52:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/db
+[ info ] api.tp.cc/index/index/db [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：2,567.89kb] [文件加载：42]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'db',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8e81a7f8-9e6d-4d10-af42-47e7dc8b4042',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->db[ F:\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\db' not found[F:\wamp64\www\tp5\application\index\controller\Index.php:26]
+---------------------------------------------------------------
+[ 2019-12-09T10:52:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/db
+[ info ] api.tp.cc/index/index/db [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：2,464.77kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'db',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '48da1850-4065-445a-987b-408d23fd1465',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->db[ F:\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T10:53:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/db
+[ info ] api.tp.cc/index/index/db [运行时间：0.048002s][吞吐率：20.83req/s] [内存消耗：2,568.03kb] [文件加载：42]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'db',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e4aea17e-e416-42fa-ab55-ac6b9024f1ff',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->db[ F:\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\db' not found[F:\wamp64\www\tp5\application\index\controller\Index.php:26]
+---------------------------------------------------------------
+[ 2019-12-09T10:53:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/db
+[ info ] api.tp.cc/index/index/db [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：2,568.67kb] [文件加载：42]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'db',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.tp.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4117264384; pgv_si=s5793657856',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->db[ F:\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\db' not found[F:\wamp64\www\tp5\application\index\controller\Index.php:26]
+---------------------------------------------------------------
+[ 2019-12-09T10:54:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/db
+[ info ] api.tp.cc/index/index/db [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：2,568.99kb] [文件加载：42]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'db',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.tp.cc',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4117264384; pgv_si=s5793657856',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->db[ F:\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\db' not found[F:\wamp64\www\tp5\application\index\controller\Index.php:26]
+---------------------------------------------------------------
+[ 2019-12-09T10:54:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/db
+[ info ] api.tp.cc/index/index/db [运行时间：0.061004s][吞吐率：16.39req/s] [内存消耗：2,568.99kb] [文件加载：42]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'db',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.tp.cc',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4117264384; pgv_si=s5793657856',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->db[ F:\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\db' not found[F:\wamp64\www\tp5\application\index\controller\Index.php:26]
+---------------------------------------------------------------
+[ 2019-12-09T10:54:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/db
+[ info ] api.tp.cc/index/index/db [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：2,568.99kb] [文件加载：42]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'db',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.tp.cc',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4117264384; pgv_si=s5793657856',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->db[ F:\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\db' not found[F:\wamp64\www\tp5\application\index\controller\Index.php:26]
+---------------------------------------------------------------
+[ 2019-12-09T10:54:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/db
+[ info ] api.tp.cc/index/index/db [运行时间：0.046003s][吞吐率：21.74req/s] [内存消耗：2,568.99kb] [文件加载：42]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'db',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.tp.cc',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4117264384; pgv_si=s5793657856',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->db[ F:\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\db' not found[F:\wamp64\www\tp5\application\index\controller\Index.php:26]
+---------------------------------------------------------------
+[ 2019-12-09T10:54:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/db
+[ info ] api.tp.cc/index/index/db [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：2,568.98kb] [文件加载：42]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'db',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.tp.cc',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4117264384; pgv_si=s5793657856',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->db[ F:\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\db' not found[F:\wamp64\www\tp5\application\index\controller\Index.php:26]
+---------------------------------------------------------------
+[ 2019-12-09T10:54:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/db
+[ info ] api.tp.cc/index/index/db [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：2,568.99kb] [文件加载：42]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'db',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.tp.cc',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4117264384; pgv_si=s5793657856',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->db[ F:\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\db' not found[F:\wamp64\www\tp5\application\index\controller\Index.php:26]
+---------------------------------------------------------------
+[ 2019-12-09T10:54:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/db
+[ info ] api.tp.cc/index/index/db [运行时间：0.090005s][吞吐率：11.11req/s] [内存消耗：2,835.65kb] [文件加载：42]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'db',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.tp.cc',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4117264384; pgv_si=s5793657856',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->db[ F:\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.032002s ] mysql:dbname=wechatmall;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] select version() [ RunTime:0.010001s ]
+---------------------------------------------------------------
+[ 2019-12-09T10:55:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/db
+[ info ] api.tp.cc/index/index/db [运行时间：0.061003s][吞吐率：16.39req/s] [内存消耗：2,866.67kb] [文件加载：42]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'db',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.tp.cc',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4117264384; pgv_si=s5793657856',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->db[ F:\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=wechatmall;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] show tables [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2019-12-09T11:19:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/db
+[ info ] api.tp.cc/index/index/db [运行时间：0.061003s][吞吐率：16.39req/s] [内存消耗：2,172.81kb] [文件加载：42]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'db',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f95087e3-4c20-4c18-9706-4e8c0b757046',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->db[ F:\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:dbname=wechatmall;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] show tables [ RunTime:0.004000s ]
+---------------------------------------------------------------
+[ 2019-12-09T11:19:16+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/index
+[ info ] api.tp.cc/index/index/index [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,836.41kb] [文件加载：39]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c1cc46a3-8f6f-490b-ba45-ae791b6c37a0',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'bbbbb' => '2',
+  'aaaaa' => '4',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T13:59:51+08:00 ] 127.0.0.1 127.0.0.1 GET /api/User/index
+[ info ] api.tp.cc/api/User/index [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,792.36kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'User',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a6e95bd9-47c6-4ef4-b2dd-2e37e0de4cb6',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\User->index[ F:\wamp64\www\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T14:00:21+08:00 ] 127.0.0.1 127.0.0.1 GET /api/User/index/id/2
+[ info ] api.tp.cc/api/User/index/id/2 [运行时间：0.058004s][吞吐率：17.24req/s] [内存消耗：1,793.23kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'User',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '65dcaae3-0e68-44d6-bb3c-5182afdd622f',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\User->index[ F:\wamp64\www\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T14:05:14+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] api.tp.cc/ [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,837.37kb] [文件加载：39]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '53011d06-90df-468c-876a-b047d005cfe7',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T14:05:36+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] api.tp.cc/ [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：1,837.37kb] [文件加载：39]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bff8c83d-b979-419f-8975-aed0a46f811d',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T14:05:38+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] api.tp.cc/ [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：1,837.37kb] [文件加载：39]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cc617738-a2e4-477c-9665-5ae7661b1521',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T14:12:09+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] api.tp.cc/ [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：1,837.38kb] [文件加载：39]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2322edf9-99e9-42d9-8951-efbbe6f02781',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T14:12:11+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] api.tp.cc/ [运行时间：0.024001s][吞吐率：41.66req/s] [内存消耗：1,837.38kb] [文件加载：39]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cebd8e80-101e-4952-9720-93dcf02d1f22',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T14:12:13+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] api.tp.cc/ [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：1,837.38kb] [文件加载：39]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7981b5ab-afc2-469f-98a8-f02d6444a666',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp64\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T14:13:07+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] api.tp.cc/ [运行时间：0.024001s][吞吐率：41.67req/s] [内存消耗：1,794.82kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5d8b7f39-34a6-4792-bfcb-fe915d961f77',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\wamp64\www\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T14:13:18+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] api.tp.cc/ [运行时间：0.023002s][吞吐率：43.47req/s] [内存消耗：1,794.81kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '316025de-8c1f-4122-bd79-b231aa3c7952',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\wamp64\www\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T14:14:24+08:00 ] 127.0.0.1 127.0.0.1 GET /user
+[ info ] api.tp.cc/user [运行时间：0.083005s][吞吐率：12.05req/s] [内存消耗：1,836.23kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1052c042-6bca-4f40-96cc-88f693813232',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:id[F:\wamp64\www\tp5\thinkphp\library\think\App.php:281]
+---------------------------------------------------------------
+[ 2019-12-09T14:14:27+08:00 ] 127.0.0.1 127.0.0.1 GET /user/index
+[ info ] api.tp.cc/user/index [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,836.28kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '055ca19e-ead0-4ceb-a984-bc3ab7c06768',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:id[F:\wamp64\www\tp5\thinkphp\library\think\App.php:281]
+---------------------------------------------------------------
+[ 2019-12-09T14:14:44+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] api.tp.cc/ [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：1,794.81kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '162baac7-ff33-4b19-a893-6d6116044989',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\wamp64\www\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T14:14:50+08:00 ] 127.0.0.1 127.0.0.1 GET /User/index
+[ info ] api.tp.cc/User/index [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,836.28kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'User',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2b572a11-461a-4bee-8211-8a64d80f6d9d',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:id[F:\wamp64\www\tp5\thinkphp\library\think\App.php:281]
+---------------------------------------------------------------
+[ 2019-12-09T14:14:55+08:00 ] 127.0.0.1 127.0.0.1 GET /User/index
+[ info ] api.tp.cc/User/index [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,837.16kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'User',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.tp.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4117264384; pgv_si=s5793657856',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:id[F:\wamp64\www\tp5\thinkphp\library\think\App.php:281]
+---------------------------------------------------------------
+[ 2019-12-09T14:17:39+08:00 ] 127.0.0.1 127.0.0.1 GET /User/2
+[ info ] api.tp.cc/User/2 [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,797.55kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f3ae6594-ed46-4972-9bd5-ae83422792b2',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\User->index[ F:\wamp64\www\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T14:22:55+08:00 ] 127.0.0.1 127.0.0.1 GET /User/2
+[ info ] api.tp.cc/User/2 [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,839.78kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd3f9fbe0-5636-485a-a90d-9cb18fdd391f',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'data' => '2',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:id[F:\wamp64\www\tp5\thinkphp\library\think\App.php:281]
+---------------------------------------------------------------
+[ 2019-12-09T14:23:03+08:00 ] 127.0.0.1 127.0.0.1 GET /User/2
+[ info ] api.tp.cc/User/2 [运行时间：0.026002s][吞吐率：38.46req/s] [内存消耗：1,797.55kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7aa16c19-d469-411f-adc4-3218dba459c2',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'data' => '2',
+)
+[ info ] [ RUN ] app\api\controller\User->index[ F:\wamp64\www\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T14:27:34+08:00 ] 127.0.0.1 127.0.0.1 GET /User/2
+[ info ] api.tp.cc/User/2 [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,841.49kb] [文件加载：41]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'User',
+    2 => '2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4a1b05d7-ef04-4fd1-a3b6-9e70127da2d4',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T14:27:52+08:00 ] 127.0.0.1 127.0.0.1 GET /User/2
+[ info ] api.tp.cc/User/2 [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,841.72kb] [文件加载：41]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'User',
+    2 => '2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '669d98bc-1f5d-4abe-b91b-bd9e1e006789',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T14:27:59+08:00 ] 127.0.0.1 127.0.0.1 GET /User
+[ info ] api.tp.cc/User [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,837.84kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'User',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '64d83866-f92b-4af7-a71b-b0ce83d01606',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:data[F:\wamp64\www\tp5\thinkphp\library\think\App.php:281]
+---------------------------------------------------------------
+[ 2019-12-09T14:28:03+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.024001s][吞吐率：41.67req/s] [内存消耗：1,796.42kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7939c03a-18e4-4f9a-a2fb-f75a11d4ff1f',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T14:28:07+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.024001s][吞吐率：41.66req/s] [内存消耗：1,796.42kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b4a8c234-3295-41b1-b9c7-c0d3e9729a76',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T14:46:12+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.086005s][吞吐率：11.63req/s] [内存消耗：1,924.91kb] [文件加载：43]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4c3b380e-950c-4e0a-aba4-4af5b6d2a737',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\controller' not found[F:\wamp64\www\tp5\application\api\controller\Common.php:15]
+---------------------------------------------------------------
+[ 2019-12-09T14:46:38+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.024001s][吞吐率：41.66req/s] [内存消耗：1,796.42kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '98574245-2ec2-443e-a3c5-611fab43d6bc',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T14:47:01+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.024001s][吞吐率：41.66req/s] [内存消耗：1,796.42kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c4ca779f-4e0b-418b-9f34-e84829a58375',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T14:47:16+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.024002s][吞吐率：41.66req/s] [内存消耗：1,796.42kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b33520ff-ee57-4fd2-9a52-24b55de28c50',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T14:47:26+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,925.07kb] [文件加载：43]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ad60e876-67db-49ad-8eee-5688f173b304',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\controller' not found[F:\wamp64\www\tp5\application\api\controller\Common.php:15]
+---------------------------------------------------------------
+[ 2019-12-09T14:47:44+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：1,846.92kb] [文件加载：41]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd634f558-147b-47e0-9ea6-9f8ef3b75f95',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION)[F:\wamp64\www\tp5\application\api\controller\Common.php:18]
+---------------------------------------------------------------
+[ 2019-12-09T14:49:03+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,924.91kb] [文件加载：43]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8a865b1d-3675-4236-a366-01f18ab51633',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\controller' not found[F:\wamp64\www\tp5\application\api\controller\Common.php:15]
+---------------------------------------------------------------
+[ 2019-12-09T14:50:21+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,924.91kb] [文件加载：43]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '790f4a33-c075-4081-9f78-281c752d302b',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\controller' not found[F:\wamp64\www\tp5\application\api\controller\Common.php:15]
+---------------------------------------------------------------
+[ 2019-12-09T14:51:11+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.068004s][吞吐率：14.70req/s] [内存消耗：2,129.59kb] [文件加载：43]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '98f62684-9256-430e-bb22-2381455ca2a2',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T14:52:12+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：2,228.38kb] [文件加载：45]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '095c9b39-be00-46f5-a645-5c2ece3f9ab9',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:00:24+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：2,134.07kb] [文件加载：43]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '13ba5f47-50b4-432d-a63c-4efd9869867c',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:00:34+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：2,133.05kb] [文件加载：43]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f6be95aa-77bb-4219-9a33-5dd562b3109b',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:00:47+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：2,133.10kb] [文件加载：43]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fe2cc694-e0d7-4cd0-bc43-98dde9511cc7',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:00:53+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：2,133.10kb] [文件加载：43]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '0e0518af-7654-46c1-a4ca-caaca43698bf',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:01:36+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：2,133.54kb] [文件加载：43]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '75fb86b3-0be4-4891-b4c2-a5ea680019af',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '55',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '111',
+  'user_name' => 'aaa',
+  'user_pwd' => '123456',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:02:29+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：2,170.41kb] [文件加载：44]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '41d8edab-b4ef-483a-87b7-870742b2eabb',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '55',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '111',
+  'user_name' => 'aaa',
+  'user_pwd' => '123456',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:02:52+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.032001s][吞吐率：31.25req/s] [内存消耗：2,231.63kb] [文件加载：45]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f5e0aca7-673c-4c66-9ee9-dd49c34387d2',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '84',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaa',
+  'user_pwd' => '123456',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:02:54+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：2,231.63kb] [文件加载：45]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '9ea7cece-fb4a-4afb-99a2-3f03bd102dde',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '84',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaa',
+  'user_pwd' => '123456',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:02:55+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：2,231.63kb] [文件加载：45]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '8d4859e7-ce75-4423-8f14-b0a80dd6c164',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '84',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaa',
+  'user_pwd' => '123456',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:03:00+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：2,231.63kb] [文件加载：45]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '799b4003-d43b-401a-9cb3-05f36fe73ab1',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '84',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaa',
+  'user_pwd' => '123456',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:13:17+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：2,272.83kb] [文件加载：46]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '89b76a84-08c4-4c77-9ca2-32831ac4c7d6',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '84',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaa',
+  'user_pwd' => '123456',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:13:31+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：2,272.83kb] [文件加载：46]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '4ebc6c2e-542f-45d7-812d-314118479061',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '84',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaa',
+  'user_pwd' => '123456',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:14:04+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.066004s][吞吐率：15.15req/s] [内存消耗：2,287.04kb] [文件加载：49]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c13ae409-2c71-4187-9f70-4bc38bd403fb',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '84',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaa',
+  'user_pwd' => '123456',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: login[F:\wamp64\www\tp5\application\api\controller\Common.php:101]
+---------------------------------------------------------------
+[ 2019-12-09T15:14:32+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：2,287.33kb] [文件加载：49]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '724e45b7-c102-458a-b2cb-362b8fd1885d',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '84',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaa',
+  'user_pwd' => '123456',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: login[F:\wamp64\www\tp5\application\api\controller\Common.php:103]
+---------------------------------------------------------------
+[ 2019-12-09T15:14:53+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：2,175.19kb] [文件加载：44]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '574c1310-1611-42ce-b4b1-601afc3bc20d',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '84',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaa',
+  'user_pwd' => '123456',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:15:10+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：2,175.18kb] [文件加载：44]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '5fd6e6f0-3187-4b5d-93eb-fdda5c0ad129',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '84',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaa',
+  'user_pwd' => '123456',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:17:11+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：2,236.17kb] [文件加载：45]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ddf99c3f-a37a-4ad2-ad82-ea932a613a5e',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '84',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaa',
+  'user_pwd' => '123456',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:21:06+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.062003s][吞吐率：16.13req/s] [内存消耗：2,141.30kb] [文件加载：43]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b6c49e6f-628e-46be-9c03-4ec2d5d124cf',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '84',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaa',
+  'user_pwd' => '123456',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:21:24+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：2,141.28kb] [文件加载：43]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e40ef4e7-32df-4d2d-8d04-2e43176aa214',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '81',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => '',
+  'user_pwd' => '123456',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:21:46+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：2,237.97kb] [文件加载：45]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '650804d3-b7ef-4b7f-8d7b-2c405d25b6ca',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+  'kk' => '666',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:22:45+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：2,275.08kb] [文件加载：46]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '163b591f-3004-4144-816c-28f5e48d3350',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+  'kk' => '666',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:25:57+08:00 ] 127.0.0.1 127.0.0.1 POST /User
+[ info ] api.tp.cc/User [运行时间：0.033001s][吞吐率：30.30req/s] [内存消耗：2,276.45kb] [文件加载：46]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c7e1f93c-ac20-492e-a5af-93afb4e70785',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+  'kk' => '666',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:26:03+08:00 ] 127.0.0.1 127.0.0.1 GET /User
+[ info ] api.tp.cc/User [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：2,290.25kb] [文件加载：49]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fb5eb2a4-7434-4a26-a56c-8a1e66339dc0',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: index[F:\wamp64\www\tp5\application\api\controller\Common.php:102]
+---------------------------------------------------------------
+[ 2019-12-09T15:27:03+08:00 ] 127.0.0.1 127.0.0.1 GET /User
+[ info ] api.tp.cc/User [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：2,282.04kb] [文件加载：47]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '53433719-0aee-49b3-9aa2-a880c7801da4',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:data[F:\wamp64\www\tp5\thinkphp\library\think\App.php:281]
+---------------------------------------------------------------
+[ 2019-12-09T15:27:44+08:00 ] 127.0.0.1 127.0.0.1 GET /User
+[ info ] api.tp.cc/User [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：2,143.84kb] [文件加载：43]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '0610fcbb-fc7c-448f-b41a-ff616171634c',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:28:06+08:00 ] 127.0.0.1 127.0.0.1 GET /User/kk/11111
+[ info ] api.tp.cc/User/kk/11111 [运行时间：0.030001s][吞吐率：33.33req/s] [内存消耗：2,145.20kb] [文件加载：43]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '258f5a77-129a-4c2e-90c8-05143e86d1f8',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'kk' => '11111',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:28:17+08:00 ] 127.0.0.1 127.0.0.1 GET /User/kk/11
+[ info ] api.tp.cc/User/kk/11 [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：2,283.84kb] [文件加载：47]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ae361fca-04b7-472e-b97c-17d48cd392a7',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'kk' => '11',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:data[F:\wamp64\www\tp5\thinkphp\library\think\App.php:281]
+---------------------------------------------------------------
+[ 2019-12-09T15:28:57+08:00 ] 127.0.0.1 127.0.0.1 GET /User/kk/11
+[ info ] api.tp.cc/User/kk/11 [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：2,283.70kb] [文件加载：47]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.tp.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4117264384; pgv_si=s5793657856',
+)
+[ info ] [ PARAM ] array (
+  'kk' => '11',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:data[F:\wamp64\www\tp5\thinkphp\library\think\App.php:281]
+---------------------------------------------------------------
+[ 2019-12-09T15:29:02+08:00 ] 127.0.0.1 127.0.0.1 GET /User/
+[ info ] api.tp.cc/User/ [运行时间：0.030001s][吞吐率：33.33req/s] [内存消耗：2,143.83kb] [文件加载：43]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.tp.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4117264384; pgv_si=s5793657856',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:29:05+08:00 ] 127.0.0.1 127.0.0.1 GET /User/kk
+[ info ] api.tp.cc/User/kk [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：2,143.84kb] [文件加载：43]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.tp.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4117264384; pgv_si=s5793657856',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:29:09+08:00 ] 127.0.0.1 127.0.0.1 GET /User/kk/1
+[ info ] api.tp.cc/User/kk/1 [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：2,283.70kb] [文件加载：47]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.tp.cc',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4117264384; pgv_si=s5793657856',
+)
+[ info ] [ PARAM ] array (
+  'kk' => '1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:data[F:\wamp64\www\tp5\thinkphp\library\think\App.php:281]
+---------------------------------------------------------------
+[ 2019-12-09T15:29:28+08:00 ] 127.0.0.1 127.0.0.1 GET /User/kk/1
+[ info ] api.tp.cc/User/kk/1 [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：2,181.23kb] [文件加载：44]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.tp.cc',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4117264384; pgv_si=s5793657856',
+)
+[ info ] [ PARAM ] array (
+  'kk' => '1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:30:05+08:00 ] 127.0.0.1 127.0.0.1 GET /User/kk/1
+[ info ] api.tp.cc/User/kk/1 [运行时间：0.031001s][吞吐率：32.26req/s] [内存消耗：2,182.43kb] [文件加载：44]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.tp.cc',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4117264384; pgv_si=s5793657856',
+)
+[ info ] [ PARAM ] array (
+  'kk' => '1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:30:06+08:00 ] 127.0.0.1 127.0.0.1 GET /User/kk/1
+[ info ] api.tp.cc/User/kk/1 [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：2,182.43kb] [文件加载：44]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.tp.cc',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4117264384; pgv_si=s5793657856',
+)
+[ info ] [ PARAM ] array (
+  'kk' => '1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:30:11+08:00 ] 127.0.0.1 127.0.0.1 GET /User/kk/1
+[ info ] api.tp.cc/User/kk/1 [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：2,182.43kb] [文件加载：44]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.tp.cc',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4117264384; pgv_si=s5793657856',
+)
+[ info ] [ PARAM ] array (
+  'kk' => '1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:30:24+08:00 ] 127.0.0.1 127.0.0.1 GET /User/kk/1
+[ info ] api.tp.cc/User/kk/1 [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：2,279.03kb] [文件加载：46]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.tp.cc',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4117264384; pgv_si=s5793657856',
+)
+[ info ] [ PARAM ] array (
+  'kk' => '1',
+)
+[ info ] [ RUN ] app\api\controller\User->index[ F:\wamp64\www\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:30:32+08:00 ] 127.0.0.1 127.0.0.1 GET /User/kk/1
+[ info ] api.tp.cc/User/kk/1 [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：2,279.11kb] [文件加载：46]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.tp.cc',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=4117264384; pgv_si=s5793657856',
+)
+[ info ] [ PARAM ] array (
+  'kk' => '1',
+)
+[ info ] [ RUN ] app\api\controller\User->index[ F:\wamp64\www\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:36:39+08:00 ] 127.0.0.1 127.0.0.1 GET /Code
+[ info ] api.tp.cc/Code [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：2,290.03kb] [文件加载：49]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Code',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e1d1000a-abdc-44fd-816e-1b75a0b1f987',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: Code[F:\wamp64\www\tp5\application\api\controller\Common.php:105]
+---------------------------------------------------------------
+[ 2019-12-09T15:36:50+08:00 ] 127.0.0.1 127.0.0.1 GET /Code
+[ info ] api.tp.cc/Code [运行时间：0.032001s][吞吐率：31.25req/s] [内存消耗：1,844.30kb] [文件加载：41]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Code',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '4628ffae-316c-40a5-bb06-ef0fa3bfba6a',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:37:01+08:00 ] 127.0.0.1 127.0.0.1 GET /Code
+[ info ] api.tp.cc/Code [运行时间：0.029001s][吞吐率：34.48req/s] [内存消耗：1,844.30kb] [文件加载：41]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Code',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd7f1301b-9334-478b-9765-42c8607c0433',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:37:23+08:00 ] 127.0.0.1 127.0.0.1 GET /Code
+[ info ] api.tp.cc/Code [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,844.30kb] [文件加载：41]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Code',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '6f3ea075-9ba9-46f8-bc87-0408284361e7',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:38:54+08:00 ] 127.0.0.1 127.0.0.1 GET /Code
+[ info ] api.tp.cc/Code [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,844.30kb] [文件加载：41]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Code',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'eeb4e29f-a263-4b70-8917-a14f5f5ef0b9',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:38:57+08:00 ] 127.0.0.1 127.0.0.1 GET /code
+[ info ] api.tp.cc/code [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,844.30kb] [文件加载：41]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'code',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fe4fc1fe-4b34-48bd-92db-289485b46ca5',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:39:02+08:00 ] 127.0.0.1 127.0.0.1 GET /code/11/1/1/1
+[ info ] api.tp.cc/code/11/1/1/1 [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：1,800.45kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'get_code',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '4d0f2618-7e27-4b28-aef7-50c8d58e6d76',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '11',
+  'token' => '1',
+  'username' => '1',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->get_code[ F:\wamp64\www\tp5\application\api\controller\Code.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:43:03+08:00 ] 127.0.0.1 127.0.0.1 GET /code/11/1/1/1
+[ info ] api.tp.cc/code/11/1/1/1 [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,800.45kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'get_code',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '83078295-4646-4fb6-b697-3a0d777740dc',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '11',
+  'token' => '1',
+  'username' => '1',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->get_code[ F:\wamp64\www\tp5\application\api\controller\Code.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:43:04+08:00 ] 127.0.0.1 127.0.0.1 GET /code/11/1/1/1
+[ info ] api.tp.cc/code/11/1/1/1 [运行时间：0.024001s][吞吐率：41.66req/s] [内存消耗：1,800.45kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'get_code',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '3ad1c815-c13e-42db-9406-468c41014c13',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '11',
+  'token' => '1',
+  'username' => '1',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->get_code[ F:\wamp64\www\tp5\application\api\controller\Code.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:52:43+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] api.tp.cc/ [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,801.06kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '6e90e21e-6225-411f-b610-3af94da974f0',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\wamp64\www\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:57:01+08:00 ] 127.0.0.1 127.0.0.1 GET /v1/code
+[ info ] api.tp.cc/v1/code [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,845.58kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1',
+    2 => 'code',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '3903bc5e-7829-43b1-82c8-854120ce4ea2',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:57:18+08:00 ] 127.0.0.1 127.0.0.1 GET /code
+[ info ] api.tp.cc/code [运行时间：0.032001s][吞吐率：31.25req/s] [内存消耗：1,846.17kb] [文件加载：41]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'code',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c131250b-08a0-4527-99c2-115a708a2a30',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:58:35+08:00 ] 127.0.0.1 127.0.0.1 GET /code/1/1/1/1
+[ info ] api.tp.cc/code/1/1/1/1 [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：1,802.32kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'get_code',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'be926c39-5e58-4984-bdc8-97ad80042707',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1',
+  'token' => '1',
+  'username' => '1',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->get_code[ F:\wamp64\www\tp5\application\api\controller\Code.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:58:38+08:00 ] 127.0.0.1 127.0.0.1 GET /code/1/1/1/1/1
+[ info ] api.tp.cc/code/1/1/1/1/1 [运行时间：0.024001s][吞吐率：41.66req/s] [内存消耗：1,802.33kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'get_code',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '4c6cc570-9026-4aa9-b505-4a9d83aae05d',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1',
+  'token' => '1',
+  'username' => '1',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->get_code[ F:\wamp64\www\tp5\application\api\controller\Code.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:58:41+08:00 ] 127.0.0.1 127.0.0.1 GET /code/1/1/1/1/11111111111111
+[ info ] api.tp.cc/code/1/1/1/1/11111111111111 [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,802.35kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'get_code',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '9e7174d0-3bf9-4e7c-9a48-54c338f4a52d',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1',
+  'token' => '1',
+  'username' => '1',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->get_code[ F:\wamp64\www\tp5\application\api\controller\Code.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:58:44+08:00 ] 127.0.0.1 127.0.0.1 GET /code/1111111111111
+[ info ] api.tp.cc/code/1111111111111 [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,846.25kb] [文件加载：41]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'code',
+    2 => '1111111111111',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'df465003-874a-447a-9795-40e838399f56',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:58:50+08:00 ] 127.0.0.1 127.0.0.1 GET /code/1/1
+[ info ] api.tp.cc/code/1/1 [运行时间：0.031001s][吞吐率：32.26req/s] [内存消耗：1,846.22kb] [文件加载：41]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'code',
+    2 => '1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ee1aa75f-d4a7-4ee2-b7c7-e81fd471806a',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:58:52+08:00 ] 127.0.0.1 127.0.0.1 GET /code/1/1/1
+[ info ] api.tp.cc/code/1/1/1 [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,846.88kb] [文件加载：41]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'code',
+    2 => '1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '12a8cbf2-68a4-4a61-82b1-83f793b407dd',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  0 => '1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:58:54+08:00 ] 127.0.0.1 127.0.0.1 GET /code/1/1/1/1
+[ info ] api.tp.cc/code/1/1/1/1 [运行时间：0.024002s][吞吐率：41.66req/s] [内存消耗：1,802.32kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'get_code',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '75720408-7bf7-4e21-8224-7178fa3e6d58',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1',
+  'token' => '1',
+  'username' => '1',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->get_code[ F:\wamp64\www\tp5\application\api\controller\Code.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:59:01+08:00 ] 127.0.0.1 127.0.0.1 GET /code/1/1/1/1/1
+[ info ] api.tp.cc/code/1/1/1/1/1 [运行时间：0.024001s][吞吐率：41.67req/s] [内存消耗：1,802.33kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'get_code',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '273a111f-8769-40c1-b4e2-3b6d35c8b317',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1',
+  'token' => '1',
+  'username' => '1',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->get_code[ F:\wamp64\www\tp5\application\api\controller\Code.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:59:18+08:00 ] 127.0.0.1 127.0.0.1 GET /code/1/1/1/1/1
+[ info ] api.tp.cc/code/1/1/1/1/1 [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,853.39kb] [文件加载：42]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'get_code',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e8b61c5d-48ea-4c85-892d-54bcfcefb2c7',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1',
+  'token' => '1',
+  'username' => '1',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->get_code[ F:\wamp64\www\tp5\application\api\controller\Code.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Undefined property: app\api\controller\Code::$params[F:\wamp64\www\tp5\application\api\controller\Code.php:6]
+---------------------------------------------------------------
+[ 2019-12-09T15:59:37+08:00 ] 127.0.0.1 127.0.0.1 GET /code/1/1/1/1/1
+[ info ] api.tp.cc/code/1/1/1/1/1 [运行时间：0.024002s][吞吐率：41.66req/s] [内存消耗：1,802.33kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'get_code',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '292d6f49-e3ce-432c-90d7-49ad3ebdcea8',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1',
+  'token' => '1',
+  'username' => '1',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->get_code[ F:\wamp64\www\tp5\application\api\controller\Code.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T15:59:57+08:00 ] 127.0.0.1 127.0.0.1 GET /code/1/1/1/1/1
+[ info ] api.tp.cc/code/1/1/1/1/1 [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：2,282.09kb] [文件加载：46]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'get_code',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '028f1712-f721-4186-9fcf-106c7cc3b0ca',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1',
+  'token' => '1',
+  'username' => '1',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->get_code[ F:\wamp64\www\tp5\application\api\controller\Code.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T16:00:08+08:00 ] 127.0.0.1 127.0.0.1 GET /code/1/1/1/1/
+[ info ] api.tp.cc/code/1/1/1/1/ [运行时间：0.030001s][吞吐率：33.33req/s] [内存消耗：2,282.08kb] [文件加载：46]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'get_code',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'afc1f3e0-a79d-403c-8666-e3be58043fa1',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1',
+  'token' => '1',
+  'username' => '1',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->get_code[ F:\wamp64\www\tp5\application\api\controller\Code.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-09T16:00:10+08:00 ] 127.0.0.1 127.0.0.1 GET /code/1/1/1/1
+[ info ] api.tp.cc/code/1/1/1/1 [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：2,282.08kb] [文件加载：46]
+[ info ] [ LANG ] F:\wamp64\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'get_code',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '8ce4c8d0-d7d1-4e85-b22a-8dd415f2a25c',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1',
+  'token' => '1',
+  'username' => '1',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->get_code[ F:\wamp64\www\tp5\application\api\controller\Code.php ]
+[ info ] [ LOG ] INIT File

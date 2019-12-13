@@ -1,0 +1,197 @@
+<?php
+
+namespace app\api\controller\v1;
+
+use app\api\controller\config\Common;
+use think\db;
+
+
+class Cart extends Common
+{
+    protected  $_tableName = "cart"; //表
+    protected  $_num = 1; //加减表默认1
+
+    /**
+     * 添加购物车
+     * @param $params['user_id'] 用户唯一标识
+     * @param $params['goods_id'] 商品唯一标识
+     * @param $params['product_id'] SKU唯一标识
+     * @param $params['goods_name'] 商品名称
+     * @param $params['goods_number'] 商品数量
+     * @param $params['spec_key_name'] 规格名称
+     * @param $params['cart_price'] 价钱
+     * @return 
+     * @throws ReflectionException
+     * 格式：   /**
+     * @name 
+     */
+    public function cart_create()
+    {
+        /*********** 接收参数  ***********/
+        $data                  = $this->params;
+        $data['updated_at'] = time();
+
+        //查询库里是否有该条数据
+
+        $get_cart = $this->cart_details(array('user_id' => $data['user_id'], 'product_id' => (int) $data['product_id']));
+        //执行更新
+        if (!empty($get_cart)) {
+            $cart_update = $this->number_update(array('id' => (int) $get_cart['id']), $get_cart['goods_number'] + $data['goods_number']);
+        }
+
+        /*********** 写入数据库  ***********/
+        $info = db($this->_tableName)->insertGetId($data);
+        if ($info) {
+            $this->return_msg(200, '新增购物车成功!', $info);
+        } else {
+            $this->return_msg(400, '新增购物车失败!');
+        }
+    }
+
+
+
+    /**
+     * 更新购物车商品数量
+     * @param  $cart_id 购物车唯一标识
+     * @param  $type 1加2减
+     * @return 
+     * @throws ReflectionException
+     * 格式：   /**
+     * @name 
+     */
+    public function cart_update()
+    {
+        $data                  = $this->params;
+        //查询库里是否有该条数据
+        $where = array('id' => (int) $data['cart_id']);
+        $get_cart = $this->cart_details($where);
+
+        $goods_number = $get_cart['goods_number'] - $this->_num;
+        if ($data['type'] == 1) {
+            $goods_number = $get_cart['goods_number'] + $this->_num;
+        }
+
+        //执行更新
+        if ($goods_number) {
+            $cart_update = $this->number_update($where, $goods_number);
+        }
+        $this->return_msg(400, '购物车数量不能0!');
+    }
+
+
+
+    /**
+     * 更新购物车商品数量
+     * @param  $id 购物车唯一标识
+     * @param  $goods_number 购物车数量
+     * @return 
+     * @throws ReflectionException
+     * 格式：   /**
+     * @name 
+     */
+    public function number_update($where, $goods_number)
+    {
+        /*********** 接收参数  ***********/
+        $data['goods_number'] = $goods_number;
+        $data['updated_at'] = time();
+
+        $info = db($this->_tableName)->where($where)->update($data);
+        if ($info) {
+            $this->return_msg(200, '更新购物车成功!', $info);
+        } else {
+            $this->return_msg(400, '更新购物车失败!');
+        }
+    }
+
+
+    /**
+     * 查询购物车的商品
+     * @param $user_id 用户唯一标识
+     * @param $product_id SKU唯一标识
+     * @return 
+     * @throws ReflectionException
+     * 格式：   /**
+     * @name 
+     */
+    public function cart_details($where)
+    {
+
+        $info  = db($this->_tableName)->where($where)->find();
+        //   dump( Db::getLastSql());
+        return  $info;
+    }
+
+
+
+    /**
+     * 删除 清空购物车
+     * @param $cart_id 用户唯一标识
+     * @return 
+     * @throws ReflectionException
+     * 格式：   /**
+     * @name 
+     */
+    public function cart_delete()
+    {
+        $data                  = $this->params;
+        $where['user_id'] = $data['user_id'];
+        $where['id'] = array('in',$data['cart_id']);
+     
+        $info = db($this->_tableName)->where($where)->delete();
+        // dump($info);exit;
+        // dump( Db::getLastSql());
+        if ($info) {
+            $this->return_msg(200, '删除购物车成功!', $info);
+        }
+
+        $this->return_msg(400, '删除购物车失败!');
+    }
+
+
+
+
+
+
+
+
+
+    /**
+     * 购物车列表
+     * @param $user_id 用户唯一标识
+     * @param $num 每页显示个数(默认10)
+     * @param $page 页(默认1)
+     * @return 
+     * @throws ReflectionException
+     * 格式：   /**
+     * @name 
+     */
+    public function cart_list()
+    {
+        /*********** 接收参数  ***********/
+        $data = $this->params;
+        if (!isset($data['num'])) {
+            $data['num'] = 10;
+        }
+        if (!isset($data['page'])) {
+            $data['page'] = 1;
+        }
+
+        /*********** 查询数据库  ***********/
+        $where['user_id'] = $data['user_id'];
+        $count                = db($this->_tableName)->where($where)->count();
+        $page_num             = ceil($count / $data['num']);
+        $info                  = db($this->_tableName)->where($where)->page($data['page'], $data['num'])->select();
+        // dump($info);
+        // exit;
+        /*********** 判断并输出  ***********/
+        if ($info === false) {
+            $this->return_msg(400, '查询失败!');
+        } elseif (empty($info)) {
+            $this->return_msg(200, '暂无数据!');
+        } else {
+            $return_data['articles'] = $info;
+            $return_data['page_num'] = $page_num;
+            $this->return_msg(200, '查询成功!', $return_data);
+        }
+    }
+}

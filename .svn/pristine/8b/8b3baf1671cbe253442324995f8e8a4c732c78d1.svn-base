@@ -1,0 +1,1400 @@
+---------------------------------------------------------------
+[ 2019-12-11T11:11:20+08:00 ] 127.0.0.1 127.0.0.1 GET /code/1/1/1/1
+[ info ] api.tp.cc/code/1/1/1/1 [运行时间：0.094005s][吞吐率：10.64req/s] [内存消耗：3,113.06kb] [文件加载：49]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'get_code',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '72e98ea8-3299-41ec-9fb9-4d5a962e2b3c',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1',
+  'token' => '1',
+  'username' => '1',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->get_code[ F:\wamp64\www\meiyijia\tp5\application\api\controller\Code.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Undefined property: app\api\controller\Code::$params[F:\wamp64\www\meiyijia\tp5\application\api\controller\Code.php:6]
+---------------------------------------------------------------
+[ 2019-12-11T11:12:35+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] api.tp.cc/ [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：2,476.30kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd27f599a-da43-4553-8d82-84888ece2240',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\wamp64\www\meiyijia\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-11T11:13:00+08:00 ] 127.0.0.1 127.0.0.1 POST /user
+[ info ] api.tp.cc/user [运行时间：0.045002s][吞吐率：22.22req/s] [内存消耗：3,111.47kb] [文件加载：49]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c42bc862-61ea-40df-aea2-34e58e5e2990',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+  'kk' => '666',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\meiyijia\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Undefined property: app\api\controller\User::$params[F:\wamp64\www\meiyijia\tp5\application\api\controller\User.php:12]
+---------------------------------------------------------------
+[ 2019-12-11T11:13:36+08:00 ] 127.0.0.1 127.0.0.1 POST /user
+[ info ] api.tp.cc/user [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：3,111.47kb] [文件加载：49]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fac7af3e-b0de-47be-8d7b-da757766a470',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+  'kk' => '666',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\meiyijia\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Undefined property: app\api\controller\User::$params[F:\wamp64\www\meiyijia\tp5\application\api\controller\User.php:12]
+---------------------------------------------------------------
+[ 2019-12-11T11:14:16+08:00 ] 127.0.0.1 127.0.0.1 POST /user
+[ info ] api.tp.cc/user [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：3,111.47kb] [文件加载：49]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c2c3cf0a-0fd0-4c09-8f3b-f3130f40bef1',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+  'kk' => '666',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\meiyijia\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Undefined property: app\api\controller\User::$params[F:\wamp64\www\meiyijia\tp5\application\api\controller\User.php:12]
+---------------------------------------------------------------
+[ 2019-12-11T11:14:38+08:00 ] 127.0.0.1 127.0.0.1 POST /user
+[ info ] api.tp.cc/user [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：3,111.47kb] [文件加载：49]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '6b6f8fde-e3ef-44e6-8f12-786356efbd6c',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+  'kk' => '666',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\meiyijia\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Undefined property: app\api\controller\User::$params[F:\wamp64\www\meiyijia\tp5\application\api\controller\User.php:12]
+---------------------------------------------------------------
+[ 2019-12-11T11:14:43+08:00 ] 127.0.0.1 127.0.0.1 POST /user
+[ info ] api.tp.cc/user [运行时间：0.045002s][吞吐率：22.22req/s] [内存消耗：3,111.47kb] [文件加载：49]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '37d34030-3d86-43f1-931c-7d1959eceb0e',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+  'kk' => '666',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\meiyijia\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Undefined property: app\api\controller\User::$params[F:\wamp64\www\meiyijia\tp5\application\api\controller\User.php:12]
+---------------------------------------------------------------
+[ 2019-12-11T11:15:04+08:00 ] 127.0.0.1 127.0.0.1 POST /user
+[ info ] api.tp.cc/user [运行时间：0.044002s][吞吐率：22.73req/s] [内存消耗：3,111.27kb] [文件加载：49]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '98181289-8c74-4f7f-b3d9-e196969b9bf9',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '111',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\meiyijia\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Undefined property: app\api\controller\User::$params[F:\wamp64\www\meiyijia\tp5\application\api\controller\User.php:12]
+---------------------------------------------------------------
+[ 2019-12-11T11:17:54+08:00 ] 127.0.0.1 127.0.0.1 POST /user
+[ info ] api.tp.cc/user [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：3,111.27kb] [文件加载：49]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '62d7747a-d205-44f9-8971-10b987799d4b',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '111',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\meiyijia\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Undefined property: app\api\controller\User::$params[F:\wamp64\www\meiyijia\tp5\application\api\controller\User.php:12]
+---------------------------------------------------------------
+[ 2019-12-11T11:18:23+08:00 ] 127.0.0.1 127.0.0.1 POST /user
+[ info ] api.tp.cc/user [运行时间：0.047002s][吞吐率：21.28req/s] [内存消耗：3,111.27kb] [文件加载：49]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '72100265-9dd3-4d74-af2b-95a779b08bc7',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '111',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\meiyijia\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Undefined property: app\api\controller\User::$params[F:\wamp64\www\meiyijia\tp5\application\api\controller\User.php:12]
+---------------------------------------------------------------
+[ 2019-12-11T11:18:31+08:00 ] 127.0.0.1 127.0.0.1 POST /user
+[ info ] api.tp.cc/user [运行时间：0.045002s][吞吐率：22.22req/s] [内存消耗：3,111.27kb] [文件加载：49]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '890bf775-e117-4bb0-bea7-8d4b251e9b34',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '111',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\meiyijia\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Undefined property: app\api\controller\User::$params[F:\wamp64\www\meiyijia\tp5\application\api\controller\User.php:12]
+---------------------------------------------------------------
+[ 2019-12-11T11:18:56+08:00 ] 127.0.0.1 127.0.0.1 POST /user
+[ info ] api.tp.cc/user [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：3,111.27kb] [文件加载：49]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'dfc466c5-ea70-4cb5-a43c-dc11dbfc7962',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '111',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\meiyijia\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Undefined property: app\api\controller\User::$params[F:\wamp64\www\meiyijia\tp5\application\api\controller\User.php:12]
+---------------------------------------------------------------
+[ 2019-12-11T11:19:04+08:00 ] 127.0.0.1 127.0.0.1 POST /user
+[ info ] api.tp.cc/user [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：3,111.27kb] [文件加载：49]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '6a548f8d-bc07-455b-abf7-892aa6d2809b',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '111',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\meiyijia\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Undefined property: app\api\controller\User::$params[F:\wamp64\www\meiyijia\tp5\application\api\controller\User.php:12]
+---------------------------------------------------------------
+[ 2019-12-11T11:19:38+08:00 ] 127.0.0.1 127.0.0.1 POST /
+[ info ] api.tp.cc/ [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：2,476.07kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '881bf5b1-6676-48d7-9b66-4d498010eb28',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '111',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ F:\wamp64\www\meiyijia\tp5\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-11T11:19:43+08:00 ] 127.0.0.1 127.0.0.1 POST /user
+[ info ] api.tp.cc/user [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：3,111.27kb] [文件加载：49]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '63c73620-2598-4c31-b854-0f2993bec3c1',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '111',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\meiyijia\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Undefined property: app\api\controller\User::$params[F:\wamp64\www\meiyijia\tp5\application\api\controller\User.php:12]
+---------------------------------------------------------------
+[ 2019-12-11T11:21:02+08:00 ] 127.0.0.1 127.0.0.1 POST /user
+[ info ] api.tp.cc/user [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：3,111.27kb] [文件加载：49]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '28549fd0-c4a9-4187-82e0-d4a7fe87d329',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '111',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\meiyijia\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Undefined property: app\api\controller\User::$params[F:\wamp64\www\meiyijia\tp5\application\api\controller\User.php:12]
+---------------------------------------------------------------
+[ 2019-12-11T11:21:09+08:00 ] 127.0.0.1 127.0.0.1 POST /user
+[ info ] api.tp.cc/user [运行时间：0.037003s][吞吐率：27.02req/s] [内存消耗：3,016.09kb] [文件加载：45]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '14127018-026b-4e28-82fd-05bf4ea75e6c',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '111',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\meiyijia\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-11T11:21:18+08:00 ] 127.0.0.1 127.0.0.1 POST /user
+[ info ] api.tp.cc/user [运行时间：0.046003s][吞吐率：21.74req/s] [内存消耗：3,111.27kb] [文件加载：49]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '1885eebd-73ee-4d61-9c43-4bdc5007f668',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '111',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\meiyijia\tp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Undefined property: app\api\controller\User::$params[F:\wamp64\www\meiyijia\tp5\application\api\controller\User.php:12]
+---------------------------------------------------------------
+[ 2019-12-11T11:27:24+08:00 ] 127.0.0.1 127.0.0.1 POST /user
+[ info ] api.tp.cc/user [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：3,108.10kb] [文件加载：49]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '6abf0f9e-51de-490f-be41-490dca144e45',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '111',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\meiyijia\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Undefined property: app\api\controller\User::$params[F:\wamp64\www\meiyijia\application\api\controller\User.php:12]
+---------------------------------------------------------------
+[ 2019-12-11T11:31:15+08:00 ] 127.0.0.1 127.0.0.1 POST /user
+[ info ] api.tp.cc/user [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：3,070.05kb] [文件加载：46]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e84ce6e0-011f-4b06-b827-906c381e3f42',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '111',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\meiyijia\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-11T11:31:23+08:00 ] 127.0.0.1 127.0.0.1 POST /user
+[ info ] api.tp.cc/user [运行时间：0.043002s][吞吐率：23.25req/s] [内存消耗：3,070.05kb] [文件加载：46]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '39227d1b-ca55-4458-862d-b8b23f4efa03',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '111',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\meiyijia\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-11T11:31:36+08:00 ] 127.0.0.1 127.0.0.1 POST /user
+[ info ] api.tp.cc/user [运行时间：0.050002s][吞吐率：20.00req/s] [内存消耗：3,108.31kb] [文件加载：49]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '02deee6f-5182-41af-ba86-066fa5c5b943',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '111',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\meiyijia\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Undefined property: app\api\controller\User::$params[F:\wamp64\www\meiyijia\application\api\controller\User.php:12]
+---------------------------------------------------------------
+[ 2019-12-11T11:33:27+08:00 ] 127.0.0.1 127.0.0.1 POST /user
+[ info ] api.tp.cc/user [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：3,073.15kb] [文件加载：46]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e23dd106-ac04-4f14-a8eb-6ab415b7db98',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '111',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\meiyijia\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-11T11:38:09+08:00 ] 127.0.0.1 127.0.0.1 POST /user/login
+[ info ] api.tp.cc/user/login [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：3,073.77kb] [文件加载：46]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '364c75ee-6b9e-44c8-9ff3-119d000124c3',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '111',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\meiyijia\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-11T11:39:33+08:00 ] 127.0.0.1 127.0.0.1 POST /user/signup
+[ info ] api.tp.cc/user/signup [运行时间：0.078004s][吞吐率：12.82req/s] [内存消耗：3,113.37kb] [文件加载：49]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'signup',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '6cdc895c-3d60-4cd4-abda-606ced15fb5a',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '111',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: signup[F:\wamp64\www\meiyijia\application\api\controller\Common.php:110]
+---------------------------------------------------------------
+[ 2019-12-11T11:40:02+08:00 ] 127.0.0.1 127.0.0.1 POST /user/signup
+[ info ] api.tp.cc/user/signup [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：3,078.35kb] [文件加载：46]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'signup',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '93c155d5-a0bc-4331-9541-8d74c98c6a37',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '111',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ RUN ] app\api\controller\User->signup[ F:\wamp64\www\meiyijia\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-11T14:11:40+08:00 ] 127.0.0.1 127.0.0.1 POST /user/signup
+[ info ] api.tp.cc/user/signup [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：3,116.50kb] [文件加载：49]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'signup',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '13f162b4-a5b5-4899-afd3-929170992884',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '111',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ RUN ] app\api\controller\User->signup[ F:\wamp64\www\meiyijia\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Undefined property: app\api\controller\User::$params[F:\wamp64\www\meiyijia\application\api\controller\User.php:38]
+---------------------------------------------------------------
+[ 2019-12-11T14:11:51+08:00 ] 127.0.0.1 127.0.0.1 POST /user/signup
+[ info ] api.tp.cc/user/signup [运行时间：0.043003s][吞吐率：23.25req/s] [内存消耗：3,078.35kb] [文件加载：46]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'signup',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e9454db2-7ce7-4fe1-91c3-007bfbcee0dd',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '111',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ RUN ] app\api\controller\User->signup[ F:\wamp64\www\meiyijia\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-11T14:12:16+08:00 ] 127.0.0.1 127.0.0.1 POST /user/signup
+[ info ] api.tp.cc/user/signup [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：3,078.31kb] [文件加载：46]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'signup',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '2086a5fd-1cab-4883-894a-dbb33cce117b',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '111',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ RUN ] app\api\controller\User->signup[ F:\wamp64\www\meiyijia\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-11T14:12:18+08:00 ] 127.0.0.1 127.0.0.1 POST /user/signup
+[ info ] api.tp.cc/user/signup [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：3,078.31kb] [文件加载：46]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'signup',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '27fbd257-a457-4045-b43d-f9507d216d21',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '111',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ RUN ] app\api\controller\User->signup[ F:\wamp64\www\meiyijia\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-11T14:13:40+08:00 ] 127.0.0.1 127.0.0.1 POST /user/signup
+[ info ] api.tp.cc/user/signup [运行时间：0.076005s][吞吐率：13.16req/s] [内存消耗：2,931.50kb] [文件加载：44]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'signup',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '1bd8b00b-83c1-4f81-a86a-8373903d3d47',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '111',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-11T14:13:53+08:00 ] 127.0.0.1 127.0.0.1 POST /user/signup
+[ info ] api.tp.cc/user/signup [运行时间：0.041003s][吞吐率：24.39req/s] [内存消耗：2,931.50kb] [文件加载：44]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'signup',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '4f9ab019-b1e5-4159-8b5f-69665e904ee1',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '111',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-11T14:14:32+08:00 ] 127.0.0.1 127.0.0.1 POST /user/signup
+[ info ] api.tp.cc/user/signup [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：3,078.31kb] [文件加载：46]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'signup',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e39804a1-6ac1-4b2b-982a-59662866f54a',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '111',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ RUN ] app\api\controller\User->signup[ F:\wamp64\www\meiyijia\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-11T14:27:56+08:00 ] 127.0.0.1 127.0.0.1 POST /user/signup
+[ info ] api.tp.cc/user/signup [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：3,077.38kb] [文件加载：46]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'signup',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '9c6d7872-b64e-4ce3-9400-b8b3f96955e3',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '111',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => 'aaaa',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ RUN ] app\api\controller\User->signup[ F:\wamp64\www\meiyijia\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-11T14:28:00+08:00 ] 127.0.0.1 127.0.0.1 POST /user/signup
+[ info ] api.tp.cc/user/signup [运行时间：0.040003s][吞吐率：25.00req/s] [内存消耗：2,874.48kb] [文件加载：43]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'signup',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cfd0c3ad-7e19-4bc0-8abc-b7ce2495a7d1',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '107',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => '',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-11T14:29:07+08:00 ] 127.0.0.1 127.0.0.1 POST /user/signup
+[ info ] api.tp.cc/user/signup [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：2,927.58kb] [文件加载：44]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'signup',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '60c4a7eb-007e-41eb-bb43-a7deb2f65f18',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '107',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => '',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-11T14:29:42+08:00 ] 127.0.0.1 127.0.0.1 POST /user/signup
+[ info ] api.tp.cc/user/signup [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：2,930.75kb] [文件加载：44]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'signup',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f616f1dc-2657-42fb-8f0a-328a7d6a5fa3',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '107',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => '',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-11T14:30:16+08:00 ] 127.0.0.1 127.0.0.1 POST /user/signup
+[ info ] api.tp.cc/user/signup [运行时间：0.042003s][吞吐率：23.81req/s] [内存消耗：2,874.48kb] [文件加载：43]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'signup',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '10d422fa-82d7-44f9-8e12-c0a846a2fc3a',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '107',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => '',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-11T14:30:19+08:00 ] 127.0.0.1 127.0.0.1 POST /user/signup
+[ info ] api.tp.cc/user/signup [运行时间：0.043002s][吞吐率：23.25req/s] [内存消耗：3,077.46kb] [文件加载：46]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'signup',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '592b875b-45e8-42d2-b470-5d800136ed45',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '109',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => '11',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ RUN ] app\api\controller\User->signup[ F:\wamp64\www\meiyijia\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-11T15:45:32+08:00 ] 127.0.0.1 127.0.0.1 POST /user/login
+[ info ] api.tp.cc/user/login [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：3,137.54kb] [文件加载：46]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '6be51a26-6644-4069-b7be-1f21eff623cc',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '109',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1575874308',
+  'token' => '7c30a57b7114acecf8a17ae1a99bc3c6',
+  'user_name' => '11',
+  'user_pwd' => '11111111111111111111111111111111',
+)
+[ info ] [ RUN ] app\api\controller\User->login[ F:\wamp64\www\meiyijia\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-11T15:45:43+08:00 ] 127.0.0.1 127.0.0.1 POST /user/login
+[ info ] api.tp.cc/user/login [运行时间：0.044002s][吞吐率：22.73req/s] [内存消耗：2,933.15kb] [文件加载：43]
+[ info ] [ LANG ] F:\wamp64\www\meiyijia\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '32120a93-fa0e-4ebf-b4d5-bea2b6cb5853',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'accept' => '*/*',
+  'host' => 'api.tp.cc',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
